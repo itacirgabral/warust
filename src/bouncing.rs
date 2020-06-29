@@ -5,18 +5,18 @@ fn bouncing_ball(h: f64,  bounce: f64,  window: f64) -> i32 {
         let mut i = 0;
         let mut x = h;
         while x > window {
-            i = i + 1;
-            x = x * bounce;
+            i += 1;
+            x *= bounce;
             if x > window {
-                i = i + 1;
+                i += 1;
             }
         }
         i
     }
 }
 
-fn testequal(h: f64,  bounce: f64,  window: f64, exp: i32) -> () {
-    assert_eq!(bouncing_ball(h, bounce, window), exp)
+fn testequal(h: f64,  bounce: f64,  window: f64, exp: i32)  {
+    assert_eq!(bouncing_ball(h, bounce, window), exp);
 }
 
 #[test]
