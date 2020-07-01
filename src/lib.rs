@@ -8,3 +8,6 @@ mod greets;
 
 #[cfg(test)]
 mod tribonacci;
+
+#[cfg(test)]
+mod unique;
