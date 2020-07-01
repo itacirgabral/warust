@@ -5,3 +5,6 @@ mod bouncing;
 
 #[cfg(test)]
 mod greets;
+
+#[cfg(test)]
+mod tribonacci;
