@@ -11,3 +11,6 @@ mod tribonacci;
 
 #[cfg(test)]
 mod unique;
+
+#[cfg(test)]
+mod handicap;

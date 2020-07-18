@@ -3,6 +3,7 @@
 2. [bouncing](src/bouncing.rs)
 3. [tribonacci](src/tribonacci.rs)
 4. [unique](src/unique.rs)
+5. [handicap](src/handicap.rs)
 
 ## next
-- https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/rust
+- https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/rust
